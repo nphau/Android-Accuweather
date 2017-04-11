@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+   <!-- Search Widget -->
+ <!-- Search Widget -->
+	<item android:id="@+id/action_search"
+      android:icon="@drawable/ic_action_search"
+      android:title="@string/action_search"
+      android:showAsAction="collapseActionView"
+      android:actionViewClass="android.widget.SearchView"
+      android:visible="false"/>
+    
+    <!-- Location Found -->
+    <item android:id="@+id/action_location_found"
+          android:icon="@drawable/ic_action_location_found"
+          android:title="@string/action_location_found"
+          android:showAsAction="never"
+          android:visible="false" />
+    
+    <!-- Name -->
+    <item android:id="@+id/action_name"
+          android:title="@string/app_name" 
+          android:showAsAction="ifRoom" 
+          android:visible="false" />
+    
+    <!-- Refresh -->
+    <item android:id="@+id/action_refresh"
+          android:icon="@drawable/ic_home"
+          android:title="@string/action_refresh" 
+          android:showAsAction="ifRoom" />
+    
+    <!-- Add -->
+    <item android:id="@+id/action_add"
+          android:icon="@drawable/ic_action_new"
+          android:title="@string/action_add" 
+          android:showAsAction="ifRoom" />
+    
+    
+    
+    <!-- Help -->
+    <item android:id="@+id/action_help"
+          android:icon="@drawable/ic_action_help"
+          android:title="@string/action_help" 
+          android:showAsAction="never"
+          android:visible="false"/>
+    
+    <!-- Check updates -->
+    <item android:id="@+id/action_check_updates"
+          android:icon="@drawable/ic_action_refresh"
+          android:title="@string/action_check_updates"
+          android:showAsAction="never"
+          android:visible="false" />
+</menu>
